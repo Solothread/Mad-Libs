@@ -1,0 +1,61 @@
+#inputs {
+  font-family: 'Arial';
+  width: 100%
+}
+
+/* .word {
+  font-family: 'Arial';
+  color: red;
+}
+
+.wordclicked {
+  font-family: 'Arial';
+  color: green;
+} */
+
+#menumain {
+  font-family: 'Roboto Condensed';
+  color: white;
+}
+
+body {
+  background-color: #00000f;
+}
+
+#openhello {
+  font-size: 175px;
+  padding-left: 25px;
+  padding-top: 150px;
+  font-family: "Roboto Condensed";
+}
+
+#madlibs {
+  font-size: 50px;
+  font-family: 'Roboto Condensed';
+  padding-left: 25px;
+}
+
+#readybtn {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+
+form {
+  color: white;
+  font-family: 'Roboto Condensed'
+}
+
+#enterword {
+  color: white;
+  font-family: 'Roboto Condensed'
+}
+
+p {
+  color: white;
+  font-family: 'Roboto Condensed';
+  font-size: 50px;
+  padding-left: 25px;
+}

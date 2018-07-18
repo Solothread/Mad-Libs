@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Mad Libs Online </title>
+    <link href ="/styles/main.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <div class="w3-bar w3-black">
+      <a href="/" class="w3-bar-item w3-button">Home</a>
+      <a href="/history" class="w3-bar-item w3-button">History</a>
+      <a href="/start" class="w3-bar-item w3-button">Start</a>
+      <a href="#" class="w3-bar-item w3-button">About</a>
+    </div>
+    <section id="inputs">
+      <h1 id='enterword' class="w3-animate-fading"> Enter your words </h1>
+      <form class="w3-container" method = "POST">
+
+        <label class="w3-text-white w3-animate-opacity">Noun (Animal/Person)</label>
+        <input name='noun1' class="w3-input w3-animate-right w3-border w3-round w3-animate-input w3-black" type="text" style="width:30%">
+        <br>
+        <label class="w3-text-white w3-animate-opacity">Noun (Object)</label>
+        <input name='noun2' class="w3-input w3-animate-left w3-border w3-round w3-animate-input w3-black" type="text" style="width:30%">
+        <br>
+        <label class="w3-text-white w3-animate-opacity">Verb (-ing)</label>
+        <input name='verb1' class="w3-input w3-animate-right w3-border w3-round w3-animate-input w3-black" type="text" style="width:30%">
+        <br>
+        <label class="w3-text-white w3-animate-opacity">Adjective</label>
+        <input name='adjective1' class="w3-input w3-animate-left w3-border w3-round w3-animate-input w3-black" type="text" style="width:30%">
+        <!-- Noun 1: <input name = 'noun1' />
+        <br>
+        Noun 2: <input name = 'noun2' />
+        <br>
+        Verb 1 -ing: <input name = 'verb1' />
+        <br>
+        Adjective 1: <input name = 'adjective1' />
+        <br> -->
+        <br>
+      <button class="w3-btn w3-black w3-animate-right">Submit</button>
+    </form>
+    </section>
+  </body>
+</html>
